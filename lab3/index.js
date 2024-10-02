@@ -10,7 +10,8 @@ var a= 3*(parseInt(int1)+parseInt(int2));
   console.log(parseInt(int1) === parseInt(int2))
 }else {
     var result = document.getElementById("3x");
-    result.innerText = "Numbers are not equal";
+      var b=parseInt(int1)+parseInt(int2);
+      result.innerText = b;
 };
 };
 
