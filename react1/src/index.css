@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the full height of the viewport */
+}
+
+.content {
+    flex: 1; /* Makes this area expand to fill available space */
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(32, 24, 24);
+    box-shadow: 2px 2px rgb(191, 191, 191);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.Header ul { 
+    display: flex;
+}
+
+.Header ul li {
+    list-style: none;
+    padding-right: 8px;
+}
+
+.Footer {
+    display:inline-flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #918d8df6; 
+    
+}
+
+
+
+.Footer ul li {
+    list-style: none;
+    padding-right: 8px;
+}
+
+
+.body h1 { 
+    text-align: center;
+    font-weight: lighter;
+}
