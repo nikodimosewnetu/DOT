@@ -12,6 +12,6 @@ export const fetchMovies = async (query) => {
       throw new Error('No results found');
     }
   } catch (error) {
-    throw new Error("sorry, we don't have this");
+    throw new Error(`sorry, we don't have ${query}`);
   }
 };
